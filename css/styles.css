@@ -1,0 +1,262 @@
+/*HEADER*/
+:root {
+    --azul: #3E22E5;
+    --crema:#C7DDC6;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: nunito;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--crema) ;
+    color: var(--azul) ;
+    padding: 15px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: var(--azul);
+    font-size: 20px;;
+}
+
+/*SECCIÓN DE PRESENTACIÓN*/
+#quienSoy{
+    background-color: var(--azul);
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--crema);
+    margin: 0;
+ }
+
+ #nombre{
+    font-size: 60px;
+ }
+ #myInfo{
+    width: 50%;
+    padding-left: 80px;
+ }
+
+ #presentacion{
+    margin: 5px;
+    display: flex;
+    font-style: italic;
+ }
+
+ #holaSoy{
+    display: flex;
+    width: 60%;
+    justify-content: left;
+ }
+
+#dwCV{
+    margin-top: 10px;
+    padding: 9px;
+    border: 2px solid var(--crema);
+    background-color: var(--azul);
+    color: var(--crema);
+    border-color: var(--crema);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#dwCV:hover{
+    margin-top: 10px;
+    padding: 11px;
+    background-color: var(--crema);
+    color: var(--azul);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;    
+}
+
+#linea_holaSoy{
+    margin: 4px;
+    width: 5px;
+    border: none;
+    background-color: var(--crema);
+    border-radius: 3px;
+
+}
+ #retrato{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+ }
+
+ #img_retrato{
+    border-radius: 100px;
+ }
+
+ /*SECCIÓN PROYECTOS*/
+
+ #projects{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+ }
+ #imagenProtfolio{
+    width: 80%;
+    border-radius: 15px;
+    border: 3px solid var(--azul);
+ }
+
+h3{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#pro{
+    background-color: var(--crema);
+    margin: 0;
+}
+
+ #titulo_Proyectos{
+    text-align: center;
+    color: var(--azul);
+    padding-top: 20px;
+
+ }
+
+ #descripción_proyectos{
+    text-align: center;
+    color: var(--azul);
+    font-style: italic;
+ }
+
+ .proyecto{
+
+    border:3px solid var(--azul);
+    width: 25%;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    color: var(--azul);
+ }
+
+ .descripcionProyecto{
+    padding: 15px;
+    display: flex;
+    font-style: italic;
+ }
+.des_corta{
+    width: 5px;
+    border-style: none;
+    background-color: var(--azul);
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.p_des{
+    width: 80%;
+
+}
+
+.btn_hub{
+    border-style: none;
+    background-color: var(--azul);
+    border-radius: 10px;
+    width: 40%;
+    padding: 3px;
+}
+
+
+
+.img_hub{
+    height: 50px;
+}
+#img_electrolinera{
+    width: 90%;
+    border-radius: 15px;
+    border: 3px solid var(--azul);
+}
+
+#img_python{
+    width: 80%;
+    border-radius: 15px;
+    border: 3px solid var(--azul);
+}
+
+
+/*SECCIÓN CONTACTAME*/
+#contactame{
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: var(--crema);
+    align-items: center;
+}
+
+#infoContacto{
+    text-align: center;
+}
+
+.p_cont{
+    font-style: italic;
+}
+
+#email{
+    border-radius: 5px;
+    border-style: none;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+#enviar_mail{
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid var(--crema);
+    background-color: var(--azul);
+    color: var(--crema);
+    border-color: var(--crema);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#enviar_mail:hover{
+    margin-top: 10px;
+    padding: 7px;
+    background-color: var(--crema);
+    color: var(--azul);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px; 
+}
+
+#write_mail{
+    background-color: var(--crema);
+    color: var(--azul);
+    border-radius: 5px;
+    border-style: none;
+    width: 375px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer{
+    background-color: var(--crema);
+    height: 50px;
+    color: var(--azul);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
