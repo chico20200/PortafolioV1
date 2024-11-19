@@ -139,7 +139,6 @@ h3{
  }
 
  .proyecto{
-
     border:3px solid var(--azul);
     width: 25%;
     border-radius: 15px;
@@ -177,10 +176,22 @@ h3{
     padding: 3px;
 }
 
+#botones_proyectos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
+#botones_proyectos .visitar{
+    background-color: var(--azul);
+    border-style: none;
+    color: white;
+    border-radius: 10px;
+    width: 90px;
+}
 
 .img_hub{
-    height: 50px;
+    height: 30px;
 }
 #img_electrolinera{
     width: 90%;
